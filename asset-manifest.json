@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.13ba744f.css",
+    "main.js": "/Portfolio/static/js/main.45f55491.js",
+    "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/Project1.png": "/Portfolio/static/media/Project1.e4cf798a81baf57d0632.png",
+    "static/media/python.png": "/Portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/react.png": "/Portfolio/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/social.png": "/Portfolio/static/media/social.fac8faf4a5444deeb93c.png",
+    "static/media/problem-solving.png": "/Portfolio/static/media/problem-solving.fb4bc5f025cc4aa6aa33.png",
+    "static/media/c-sharp.png": "/Portfolio/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
+    "static/media/c-.png": "/Portfolio/static/media/c-.24a8f93854ab092f17a7.png",
+    "static/media/instagram.png": "/Portfolio/static/media/instagram.65c12ee67e221db2853a.png",
+    "static/media/github.png": "/Portfolio/static/media/github.9961e96dfd4f126eac92.png",
+    "static/media/html.png": "/Portfolio/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/twitter.png": "/Portfolio/static/media/twitter.9280cdaf61d3e832dad9.png",
+    "static/media/css-3.png": "/Portfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/js.png": "/Portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/slick.svg": "/Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Portfolio/index.html",
+    "main.13ba744f.css.map": "/Portfolio/static/css/main.13ba744f.css.map",
+    "main.45f55491.js.map": "/Portfolio/static/js/main.45f55491.js.map",
+    "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13ba744f.css",
+    "static/js/main.45f55491.js"
+  ]
+}
