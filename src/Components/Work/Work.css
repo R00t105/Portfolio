@@ -1,0 +1,29 @@
+.Work {
+    background: #0d3b66;
+    height: max-content;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    gap: 80px;
+    padding-bottom: 150px;
+  }
+
+.Work h1{
+    font-size: 60px;
+    margin-top: -50px;
+  }
+
+.Work .Card{
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .Work img {
+    width: 100%;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+  }
+
+  

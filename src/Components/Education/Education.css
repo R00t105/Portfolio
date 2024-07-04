@@ -1,0 +1,100 @@
+.Education{
+    height: max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 80px;
+    padding-bottom: 150px;
+    box-sizing: border-box;
+    background-color: #0d3b66;
+    /* margin-bottom: 100px; */
+}
+
+.Education h1{
+    letter-spacing: 1px;
+    font-size: 60px;
+    margin-top: -50px;
+}
+
+
+
+.Education .Cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px 80px;
+    max-height: max-content; 
+    /* margin-bottom: 200px; */
+    /* padding-bottom: 100px; */
+    
+}
+
+.Education .Cards .Card{
+    /* border: solid 1px #fff; */
+    flex-basis: 40%;
+    padding: 10px 10px 10px 25px;
+    position: relative;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+}
+
+.Education .Cards .Card::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: solid 1px #fff;
+    height: 75%;
+    display: block;
+}
+
+.Education .Cards .Card::after{
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    transform: translate(-50%, 0);
+    box-shadow: 0px 0px 30px #219ebc;
+}
+
+.Education .Cards .Card:hover{
+    /* box-shadow: 10px 10px 30px #219ebc; */
+    transform: scale(1.1);
+}
+
+.Education .Cards .Card h2{
+    font-size: 23px;
+}
+
+
+.Education .Cards .Card h4{
+    margin: 3px 0 13px;
+    font-weight: normal;
+}
+
+.Education .Cards .Card p{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+@media (max-width:1100px) {
+    .Education .Cards .Card{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .Education h1{
+        font-size: 40px;
+        margin-top: -35px;
+    }
+}

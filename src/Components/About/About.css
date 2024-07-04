@@ -1,0 +1,60 @@
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* padding-bottom: 140px; */
+    margin-top: 50px;
+}
+
+.About .AboutContent{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.About .AboutContent h6{
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.About .AboutContent h1{
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: 1.1px;
+}
+
+.About .AboutContent h1 span{
+    color: #219ebc;
+}
+
+.About .AboutContent p{
+    color: rgba(255, 255, 255, 0.6);
+    margin: 45px 0;
+    width: 68%;
+    letter-spacing: 1.2px;
+}
+
+.About .AboutContent button{
+    min-width: 20%;
+}
+
+
+@media (max-width:1100px) {
+    .About .AboutContent{
+        width: 70%;
+    }
+  }
+
+@media (max-width:900px) {
+    .About .AboutContent{
+        width: 80%;
+    }
+    
+    .About .AboutContent h1{
+    font-size: 40px;
+}
+  }
+

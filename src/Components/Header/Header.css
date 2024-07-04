@@ -1,0 +1,92 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 30px;
+    /* background: #000; */
+    transition-duration: 0.3s;
+    z-index: 100;
+
+}
+
+.Header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 42%;
+    transition-duration: 0.3;
+}
+
+.Header ul .item{
+    transition-duration: 0.3s;
+    display: block;
+    position: relative;
+    padding-bottom: 6px;
+}
+
+.Header ul .item::after{
+  position: absolute;
+  content: '';
+  height: 3px;
+  background-color: #fff;
+  width: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition-duration: 0.3s;
+}
+
+.Header ul .item:hover::after{
+  width: 100%;
+}
+
+.Hexagon {
+  position: relative;
+  width: 50px;
+  height: 60px;
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0d3b66;
+  transition-duration: 0.3s;
+}
+
+.Hexagon h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.active{
+  border-bottom: solid #fff 3px;
+  padding-bottom: 3px;
+}
+
+.NavBg{
+  background-color: #0d3b66;
+  transition: 0.3s ease-in-out;
+  transition-duration: 0.3s;
+}
+.logo{
+  background: #004e89;
+  transition-duration: 0.3s;
+}
+
+
+@media (max-width:1100px) {
+  .Header ul{
+    width: 50%;
+  }
+}
+
+@media (max-width:900px) {
+  .Header ul{
+    width: 60%;
+  }
+}
