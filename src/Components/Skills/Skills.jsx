@@ -15,7 +15,7 @@ import OOP from "../../Assets/OOP.png";
 const Skills = () => {
   return (
     <div className="Skills Container">
-      <h1>Skills</h1>
+      <h1 className="SectionTitle">Skills</h1>
       <div className="Cards">
         <div className="Card">
           <div className="HtmlCss">

@@ -9,3 +9,14 @@
 .Footer p{
     font-size: 18px;
 }
+
+@media screen and (max-width:360px){
+    .Footer p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:280px){
+    .Footer p{
+        font-size: 13px;
+    }
+}

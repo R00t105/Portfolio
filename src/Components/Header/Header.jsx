@@ -2,27 +2,36 @@ import React from "react";
 import { Link } from "react-scroll";
 import { useState } from "react";
 import "./Header.css";
+import Resume from '../../Assets/Resume.pdf'
 
 const Header = () => {
-
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [navFixed, setNavFixed] = useState(false);
 
-  function handleNavScroll(){
-    if(window.scrollY >= 100){
+  function handleNavScroll() {
+    if (window.scrollY >= 100) {
       setNavFixed(true);
-    }else{
+    } else {
       setNavFixed(false);
     }
   }
 
-  window.addEventListener('scroll', handleNavScroll)
+  window.addEventListener("scroll", handleNavScroll);
+
+  function ToggleHandle() {
+    if (isMenuOpen) {
+      setIsMenuOpen(false);
+    } else {
+      setIsMenuOpen(true);
+    }
+  }
 
   return (
-    <nav className={navFixed ? 'Header NavBg' : 'Header'}>
-      <div className={navFixed ? 'Hexagon logo' : 'Hexagon'}>
+    <nav className={navFixed ? "Header NavBg" : "Header"}>
+      <div className={navFixed ? "Hexagon logo" : "Hexagon"}>
         <h1>M</h1>
       </div>
-      <ul>
+      <ul className={isMenuOpen ? "ActiveToggle" : ""}>
         <li className="item">
           <Link
             activeClass="active"
@@ -41,7 +50,7 @@ const Header = () => {
             to="Education"
             spy={true}
             smooth={true}
-            offset={-130}
+            offset={-80}
             duration={1000}
           >
             Education
@@ -53,7 +62,7 @@ const Header = () => {
             to="Skills"
             spy={true}
             smooth={true}
-            offset={-130}
+            offset={-80}
             duration={1000}
           >
             Skills
@@ -65,7 +74,7 @@ const Header = () => {
             to="Work"
             spy={true}
             smooth={true}
-            offset={-130}
+            offset={-80}
             duration={1000}
           >
             Work
@@ -77,16 +86,21 @@ const Header = () => {
             to="Contact"
             spy={true}
             smooth={true}
-            offset={-130}
+            offset={-80}
             duration={1000}
           >
             Contact
           </Link>
         </li>
         <li>
-          <button className="btn">Resume</button>
+          <a href={Resume}><button className="btn">Resume</button></a>
         </li>
       </ul>
+      <div onClick={ToggleHandle} className="Toggle">
+        <div className="ToggleLine"></div>
+        <div className="ToggleLine"></div>
+        <div className="ToggleLine"></div>
+      </div>
     </nav>
   );
 };

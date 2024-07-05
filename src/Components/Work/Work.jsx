@@ -28,11 +28,11 @@ const Work = () => {
 
   return(
     <div className="Work Container">
-    <h1>Work</h1>
+    <h1 className="SectionTitle">Work</h1>
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index} className="Card">
-            <img src={image} alt={`Slide ${index}`} />
+            <a href="https://r00t105.github.io/edusity/" target="_blabk"><img style={{border:"none", outline:"none"}} src={image} alt={`Slide ${index}`} /></a>
           </div>
         ))}
       </Slider>

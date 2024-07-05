@@ -2,16 +2,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh !important; 
+    padding: 0 0 0 90px;
+    /* height: 100vh; */
     /* padding-bottom: 140px; */
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .About .AboutContent{
-    width: 50%;
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 
@@ -22,7 +25,7 @@
 
 .About .AboutContent h1{
     font-size: 50px;
-    line-height: 1.2;
+    line-height: 1;
     letter-spacing: 1.1px;
 }
 
@@ -32,8 +35,8 @@
 
 .About .AboutContent p{
     color: rgba(255, 255, 255, 0.6);
-    margin: 45px 0;
-    width: 68%;
+    margin: 30px 0 40px;
+    width: 55%;
     letter-spacing: 1.2px;
 }
 
@@ -42,19 +45,56 @@
 }
 
 
-@media (max-width:1100px) {
-    .About .AboutContent{
-        width: 70%;
+@media screen and (max-width:900px){
+    .About .AboutContent p{
+        width: 550px;
     }
-  }
-
-@media (max-width:900px) {
-    .About .AboutContent{
-        width: 80%;
-    }
-    
-    .About .AboutContent h1{
-    font-size: 40px;
 }
-  }
+
+@media screen and (max-width:750px){
+    .About .AboutContent p{
+        width: 450px;
+    }
+}
+@media screen and (max-width:600px){
+    .About .AboutContent h1{
+        font-size: 35px;
+    }
+    .About .AboutContent p{
+        font-size: 15px;
+        letter-spacing: 0;
+        width: 350px;
+    }
+    .About .AboutContent h6{
+        font-size: 14px;
+    }
+    .About .AboutContent{
+        margin-bottom: 80px;
+    }
+}
+@media screen and (max-width:500px){
+    .About .AboutContent h1{
+        font-size: 30px;
+    }
+    .About .AboutContent p{
+        font-size: 12px;
+        width: 300px;
+    }
+}
+@media screen and (max-width:450px){
+    .About{
+        padding-left: 60px;
+    }
+    .About .AboutContent p{
+        width: 250px;
+    }
+}
+@media screen and (max-width:380px){
+    .About{
+        padding-left: 40px;
+    }
+    .About .AboutContent p{
+        width: 250px;
+    }
+}
 

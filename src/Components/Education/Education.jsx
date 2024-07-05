@@ -4,7 +4,7 @@ import "./Education.css";
 const Education = () => {
   return (
     <div className="Education Container">
-      <h1>Education</h1>
+      <h1 className="SectionTitle">Education</h1>
       <div className="Cards">
         <div className="Card">
           <h2>Bachelor of Computer Science, Obour Institute</h2>

@@ -1,22 +1,15 @@
 .Education{
-    height: max-content;
+    /* height: max-content; */
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     gap: 80px;
-    padding-bottom: 150px;
+    /* padding-bottom: 150px; */
     box-sizing: border-box;
     background-color: #0d3b66;
     /* margin-bottom: 100px; */
 }
-
-.Education h1{
-    letter-spacing: 1px;
-    font-size: 60px;
-    margin-top: -50px;
-}
-
 
 
 .Education .Cards{
@@ -93,8 +86,11 @@
         flex-basis: 100%;
         margin-bottom: 20px;
     }
-    .Education h1{
-        font-size: 40px;
-        margin-top: -35px;
+}
+
+@media screen and (max-width:500px){
+    .Education .Cards .Card h2{
+        font-size: 19px;
     }
+    
 }
