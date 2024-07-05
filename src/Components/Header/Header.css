@@ -115,7 +115,7 @@
   }
   .Header ul{
     position: fixed;
-    top: 6.5vh;
+    top: 8vh;
     right: 0;
     height: 93vh;
     flex-direction: column;
