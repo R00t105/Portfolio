@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { useState } from "react";
-import Lottie from "react-lottie";
+import Email from '../../Assets/email.png'
 import animationData from "../../Assets/Animation - 1719978585348.json";
 
 const Contact = () => {
@@ -95,7 +95,7 @@ const Contact = () => {
         <button>Send</button>
         <span>{result}</span>
       </form>
-      <Lottie options={defaultOptions} height={400} width={400} />
+      <img src={Email} alt="Email"/>
       </div>
     </div>
   );

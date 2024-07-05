@@ -88,6 +88,13 @@
     .About .AboutContent p{
         width: 250px;
     }
+    .About .AboutContent{
+        margin-bottom: 0;
+        margin-top: 70px;
+    }
+    .About .AboutContent h1{
+        font-size: 22px;
+    }
 }
 @media screen and (max-width:380px){
     .About{
